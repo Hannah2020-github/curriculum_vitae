@@ -20,8 +20,7 @@ ul {
     width: 817px;
 }
 
-/* left part */
-.left {
+.contact-and-skills {
     border-left: 5px #AA0000 solid;
     border-right: 5px #AA0000 solid;
     flex: none;
@@ -29,7 +28,7 @@ ul {
     width: 198.5px;    
 }
 
-.left-content {
+.contact-skills-style {
     background-color: #AA0000;
     height: 1140px;
     margin:0 auto;
@@ -37,26 +36,26 @@ ul {
     width: 188.5px;
 }
 
-.left-line {
+.contact-skills-line {
     border-color: white;
     margin: 15px;
 }
 
 /* CONTACT ME */
-.circular {
+.contact-circular {
     border:1px solid rgba(255, 255, 255, 0.825);
     border-radius:50%;
     height:30px;
     width:30px;
 }
 
-.profile-caption {
+.profile-title {
     color: rgba(255, 255, 255, 0.825);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px; 
 }
 
-.profile-text {
+.profile-content {
     align-content: center;
     color: rgba(255, 255, 255, 0.825);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,7 +68,7 @@ ul {
 }
 
 /* skill part */
-.degree-circular {
+.skill-degree-circle {
     border:1px solid rgba(255, 255, 255, 0.825);
     border-radius:50%;
     flex: none;
@@ -78,7 +77,8 @@ ul {
     width:7px;
 }
 
-.degree-circular-bg {
+/* 圓點填色，表示程度等級 */
+.skill-circle-bg {
     background-color: rgba(255, 255, 255, 0.825);
     border:1px solid ;
     border-radius:50%;
@@ -88,7 +88,7 @@ ul {
     width:7px;
 }
 
-.skill-bots {
+.skill-dots {
     display: flex;
     flex: none;
     width: 50%;  
@@ -107,8 +107,7 @@ ul {
     margin: 25px 0px;
 }
 
-/* 圓點填色顯示程度 */
-.skill-name {
+.skill-title {
     color: rgba(255, 255, 255, 0.825);
     flex: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,8 +116,7 @@ ul {
     width: 50.5px;
 }
 
-/* right part */
-.right {
+.introduction-experience {
     align-items: center;
     flex: none;
     height: 1090px;
@@ -130,7 +128,7 @@ ul {
     width: 595.5px;
 }
 
-.right-content-caption {
+.introduction-experience-title {
     color: #AA0000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
@@ -138,7 +136,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.right-dotted-line {
+.introduction-experience-line {
     border:none;
     border-top:2px dashed gray;
     height:1px;
@@ -146,7 +144,7 @@ ul {
     margin-top: 20px;
 }
 
-.right-red-line {
+.introduction-red-line {
     border: 2px solid #AA0000;
     margin: 20px 25px 0 0;
 }
@@ -158,14 +156,14 @@ ul {
     margin: 0px 0px 5px 0px; 
 }
 
-#position {
+#positions {
     color: #AA0000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;   
 }
 
 /* ABOUT ME */
-.about-me-content {
+.about-me-describe {
     color: gray;
     font-family: Microsoft JhengHei, 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
@@ -176,7 +174,7 @@ ul {
     text-indent: 1.5em;
 }
 
-#about-me-brief {
+#brief-description {
     font-family: Microsoft JhengHei, 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -197,11 +195,11 @@ ul {
     width: 50%;
 }
 
-.during {
+.active-during {
     flex: none;
 }
 
-.during-of-tenure {
+.active-during-frame {
     display: flex;
     flex: none;
     font-size: 18px;
@@ -273,10 +271,6 @@ ul {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0px;
-}
-
-.skill-red-bar {
-    background-color: #AA0000;
 }
 
 .skill-second-part {
