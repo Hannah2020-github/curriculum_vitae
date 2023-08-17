@@ -1,4 +1,4 @@
-img{
+img {
     background-color: #AA0000;
     padding-top: 35px;
 }
@@ -42,7 +42,7 @@ ul {
 }
 
 /* CONTACT ME */
-.contact-circular {
+.contact-circle {
     border:1px solid rgba(255, 255, 255, 0.825);
     border-radius:50%;
     height:30px;
